@@ -6,7 +6,7 @@ jobs:
     docker:
       - image: circleci/python:3.7
 
-    working_directory: ~/
+    working_directory: ~/repo
 
     steps:
       # Step 2: Obtain the repo from GitHub
