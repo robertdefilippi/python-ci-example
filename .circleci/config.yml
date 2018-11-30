@@ -23,5 +23,5 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
-            flake8 --statistics
+            pycodestyle --statistics
             pytest -v --cov=calculator --ignore=bin/* --ignore=lib/*
